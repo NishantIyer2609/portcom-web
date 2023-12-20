@@ -33,8 +33,8 @@ export default function Home() {
           className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
           src="/next.png"
           alt="Next.js Logo"
-          width={430}
-          height={1200}
+          width={2000}
+          height={3000}
           priority
         />
       </div>
