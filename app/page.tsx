@@ -8,8 +8,26 @@ export default function Home() {
           Get started by editing&nbsp;
           <code className="font-mono font-bold">app/page.tsx</code>
         </p>
-      <div className="absolute left-1/2 transform -translate-x-1/2" style={{ top: 'calc(50% - 3cm)' }}>
-        <h1 className="text-6xl font-bold">Low Bandwidth Remote Architecture (Lubera)</h1>
+      <h1 className="text-4xl font-bold mb-12">Lubera</h1>
+
+      {/* Grid of Cards */}
+      <div className="grid grid-cols-3 grid-rows-2 gap-6 mb-12">
+        <div className="col-span-3 row-span-2 bg-dark-card rounded-lg p-4 text-white">
+          <h2 className="text-xl font-semibold mb-3">Deploying A Watershed Breakthrough</h2>
+          <p>We establish the world's first high-performance data broker...</p>
+        </div>
+        <div className="col-span-1 bg-dark-card rounded-lg p-4 text-white">
+          <h2 className="text-xl font-semibold mb-3">We unravel Entangled Throughput Dependencies</h2>
+          <p>For decades, enterprise solutions resigned to centralized execution...</p>
+        </div>
+        <div className="col-span-1 bg-dark-card rounded-lg p-4 text-white">
+          <h2 className="text-xl font-semibold mb-3">Social Innovation Across Barriers</h2>
+          <p>Democratizing access activates equipped talent across all latitudes...</p>
+        </div>
+        <div className="col-span-1 bg-dark-card rounded-lg p-4 text-white">
+          <h2 className="text-xl font-semibold mb-3">Our $20 Ultralight Thin Client Hardware</h2>
+          <p>Our $20 ultralight thin client hardware and serverless architectures...</p>
+        </div>
       </div>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
           <a
