@@ -1,6 +1,15 @@
-import Image from 'next/image'
+import { Slide } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css';
+import Image from 'next/image';
 
 export default function Home() {
+  const slideImages = [
+    '/public/next.png', // Replace these with your image paths
+    '/public/break.png',
+    '/public/low.png',
+    '/public/cloud.png',
+    '/public/social.png',
+  ];
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
