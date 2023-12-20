@@ -8,13 +8,14 @@ export default function Home() {
           Get started by editing&nbsp;
           <code className="font-mono font-bold">app/page.tsx</code>
         </p>
+      {/* Adjusted "Lubera" heading */}
       <h1 className="text-4xl font-bold mb-12">Lubera</h1>
 
-      {/* Grid of Cards */}
+      {/* Grid of Cards with escaped apostrophes */}
       <div className="grid grid-cols-3 grid-rows-2 gap-6 mb-12">
         <div className="col-span-3 row-span-2 bg-dark-card rounded-lg p-4 text-white">
           <h2 className="text-xl font-semibold mb-3">Deploying A Watershed Breakthrough</h2>
-          <p>We establish the world's first high-performance data broker...</p>
+          <p>We establish the world&apos;s first high-performance data broker...</p>
         </div>
         <div className="col-span-1 bg-dark-card rounded-lg p-4 text-white">
           <h2 className="text-xl font-semibold mb-3">We unravel Entangled Throughput Dependencies</h2>
