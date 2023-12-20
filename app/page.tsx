@@ -9,7 +9,7 @@ export default function Home() {
           <code className="font-mono font-bold">app/page.tsx</code>
         </p>
       <div className="absolute left-1/2 transform -translate-x-1/2" style={{ top: 'calc(50% - 3cm)' }}>
-        <h1 className="text-6xl font-bold">Lubera</h1>
+        <h1 className="text-6xl font-bold">Low Bandwidth Remote Architecture</h1>
       </div>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
           <a
