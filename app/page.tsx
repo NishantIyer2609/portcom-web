@@ -9,7 +9,7 @@ export default function Home() {
           <code className="font-mono font-bold">app/page.tsx</code>
         </p>
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-        <h1 className="text-6xl font-bold">Lubera</h1>
+        <h1 className="text-6xl font-bold">Low Bandwidth Remote Architecture (Lubera)</h1>
       </div>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
           <a
@@ -83,6 +83,38 @@ export default function Home() {
           </p>
         </a>
 
+        <a
+          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-2xl font-semibold`}>
+            Deploy{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+            Instantly deploy your Next.js site to a shareable URL with Vercel.
+          </p>
+        </a>
+        <a
+          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-2xl font-semibold`}>
+            Deploy{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+            Instantly deploy your Next.js site to a shareable URL with Vercel.
+          </p>
+        </a>
         <a
           href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
